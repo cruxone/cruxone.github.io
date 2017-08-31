@@ -1,17 +1,21 @@
-<md-sidenav-container fullscreen class="sidenav-container" color="primary">
-  <md-sidenav #sidenav>
-    <md-list>
-      <md-list-item><button md-button [routerLink]="['Home']">Home</button></md-list-item>
-      <md-list-item><button md-button [routerLink]="['Projects']">Projects</button></md-list-item>
-      <md-list-item><button md-button [routerLink]="['Contact']">Contact</button></md-list-item>
-    </md-list>
-  </md-sidenav>
-
-  <div>
-    <button type="button" md-button (click)="sidenav.open()">
-      <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-    </button>
+<div class="roboto">
+  <div class="App-header">
+      <h1 class="center-text">Hey, I'm Crux.</h1>
+        <img class="Img-size center-block img-responsive img-circle" src="../../assets/img/cf_cropped.png">
+      <h1 class="center-text">I like to program, and I work in devops.</h1>
+      <div class="center-block center-text">
+        <button md-raised-button color="primary" [routerLink]="['/Home']">Home</button>
+        <button md-raised-button color="primary" [routerLink]="['/Projects']">Projects</button>        
+        <button md-raised-button color="primary" [routerLink]="['/Contact']">Contact</button>
+        <button md-raised-button color="primary" [routerLink]="['/Blog']">Blog</button>        
+      </div>
+      <br />
+      <div class="center-block center-text">
+        <a  href="https://www.linkedin.com/in/chris-freeland/"><button md-mini-fab color="primary"><i class="fa fa-linkedin"></i></button></a>
+        <a href="https://github.com/cruxone"><button md-mini-fab color="primary"><i class="fa fa-github"></i></button></a>
+      </div>
   </div>
+  <br />
 <router-outlet></router-outlet>
-
-</md-sidenav-container>
+<h1 class="center-text">¯\_(ツ)_/¯</h1> 
+</div>

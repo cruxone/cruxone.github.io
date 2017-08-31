@@ -1,3 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 @import '~https://fonts.googleapis.com/css?family=Roboto';
+.roboto {
+  font-family: 'roboto'
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+ }
+.center-text {
+  text-align: center;
+}

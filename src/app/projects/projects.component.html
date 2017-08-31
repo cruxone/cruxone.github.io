@@ -1,13 +1,17 @@
-<h3>Current</h3>
-<p> I have been really digging Angular 2. Picking up react right now. Other then that: js, python, PoSh, and node.</p>
-<h5>Here are my github repos</h5>
-
+<div class="center-text">
+  <h2>Current</h2>
+  <p> My main projects right now are SongTub, a soon to be music licensing platform, making games with friends, and whatever
+    is on my github:</p>
+</div>
 <div class="repo-list" *ngFor="let repo of repos;">
   <md-card>
     <md-card-header>
-      <md-card-title>{{ repo.name }}</md-card-title> 
+      <md-card-title>{{ repo.name }}</md-card-title>
       <md-card-subtitle>{{ repo.language }}</md-card-subtitle>
     </md-card-header>
-    <md-card-content><p>{{ repo.description }}</p></md-card-content>    
+    <md-card-content>
+      <p>{{ repo.description }}</p>
+    </md-card-content>
   </md-card>
+  <br />
 </div>
