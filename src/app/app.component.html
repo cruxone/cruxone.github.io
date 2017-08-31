@@ -1,9 +1,9 @@
 <md-sidenav-container fullscreen class="sidenav-container" color="primary">
   <md-sidenav #sidenav>
     <md-list>
-      <md-list-item><button md-button>Home</button></md-list-item>
-      <md-list-item><button md-button>Projects</button></md-list-item>
-      <md-list-item><button md-button>Contact</button></md-list-item>
+      <md-list-item><button md-button [routerLink]="['Home']">Home</button></md-list-item>
+      <md-list-item><button md-button [routerLink]="['Projects']">Projects</button></md-list-item>
+      <md-list-item><button md-button [routerLink]="['Contact']">Contact</button></md-list-item>
     </md-list>
   </md-sidenav>
 
