@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 @import '~https://fonts.googleapis.com/css?family=Roboto';
 .roboto {
   font-family: 'roboto'
@@ -14,10 +14,14 @@
   text-align: center;
 }
 .bgimg {
-  background: url('/assets/img/windowRain.jpeg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: white;
-} 
+  background: #67B26F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(left, #4ca2cd, #67B26F);
+  background: -moz-linear-gradient(left, #4ca2cd, #67B26F);
+  background: -o-linear-gradient(left, #4ca2cd, #67B26F);
+  background: linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white; 
+}
+.text-block {
+  margin-left: 15%;
+  margin-right: 15%;
+}
