@@ -11,7 +11,7 @@
       <h4 *ngIf="showHide" 
       class="center-text" 
       (click)="showHide = !showHide"
-      mdTooltip="Click to bring back my face!">Bring me back!</h4>
+      mdTooltip="Click to bring my face back!">Bring me back!</h4>
       <h1 class="center-text">I like to program and I work in "devops".</h1>
       <div class="center-block center-text">
         <button md-mini-fab color="primary" [routerLink]="['/Home']"><i class="fa fa-home" aria-hidden="true"></i></button>
@@ -27,7 +27,8 @@
   <br />
 <router-outlet></router-outlet>
 <h1 class="center-text">¯\_(ツ)_/¯</h1> 
-<footer class="center-text">
-  <h3><i class="fa fa-envelope"></i> chris@crux.cool</h3>
+<footer>
+  <h3 class="center-text"><i class="fa fa-envelope"></i> chris@crux.cool</h3>
+  <h5 class="footer-tag">Made with Angular and Material</h5>
 </footer>
 </div>
