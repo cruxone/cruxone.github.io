@@ -1,13 +1,22 @@
 <div class="roboto">
   <div class="App-header">
       <h1 class="center-text">Hey, I'm Crux.</h1>
-        <img class="Img-size center-block img-responsive img-circle" src="../../assets/img/cf_cropped.png">
-      <h1 class="center-text">I like to program, and I work in devops.</h1>
+        <img class="Img-size center-block img-responsive img-circle" 
+        src="../../assets/img/cf_cropped.png" 
+        mdTooltip="Click my face to hide it!" 
+        mdTooltipPosition="left"
+        (click)="showHide = !showHide"
+        *ngIf="!showHide">
+      <h4 *ngIf="showHide" 
+      class="center-text" 
+      (click)="showHide = !showHide"
+      mdTooltip="Click to bring back my face!">Bring me back!</h4>
+      <h1 class="center-text">I like to program and I work in "devops".</h1>
       <div class="center-block center-text">
         <button md-raised-button color="primary" [routerLink]="['/Home']">Home</button>
+        <button md-raised-button color="primary" [routerLink]="['/Blog']">Blog</button>   
         <button md-raised-button color="primary" [routerLink]="['/Projects']">Projects</button>        
         <button md-raised-button color="primary" [routerLink]="['/Contact']">Contact</button>
-        <button md-raised-button color="primary" [routerLink]="['/Blog']">Blog</button>        
       </div>
       <br />
       <div class="center-block center-text">
