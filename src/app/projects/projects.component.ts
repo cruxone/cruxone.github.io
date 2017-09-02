@@ -8,7 +8,9 @@ import { RepoFetchService } from '../repo-fetch.service';
 })
 export class ProjectsComponent implements OnInit {
   repos = []
-  constructor(private reposService: RepoFetchService) { }
+  constructor(private reposService: RepoFetchService) { 
+    
+  }
   ngOnInit() {
     this.reposService.getRepos()
       .subscribe(resRepoData => this.repos = resRepoData)
