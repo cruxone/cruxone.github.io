@@ -1,5 +1,8 @@
 <div class="center-text text-block">
-  <button md-button [mdMenuTriggerFor]="menu">Select a post.</button>
+  <button md-button 
+  [mdMenuTriggerFor]="menu"
+  mdTooltip="Feature coming soon!" 
+  mdTooltipPosition="left">Select a post.</button>
   <md-menu #menu="mdMenu">
     <button md-menu-item *ngFor="let post of posts;">{{ post.title }}</button>
   </md-menu>

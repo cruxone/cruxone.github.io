@@ -10,7 +10,13 @@ import { PostFetchService } from '../post-fetch.service';
 export class BlogComponent implements OnInit {
   posts;
   constructor(private postFetchService: PostFetchService) { 
+  this.posts = [];
   }
+
+  postSelected () {
+    // this function will trigger when a post is selected.
+  }
+
   ngOnInit() {
     this.postFetchService.getPosts()
       .subscribe(resPostData => this.posts = resPostData.posts)

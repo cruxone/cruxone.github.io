@@ -1,4 +1,4 @@
-<div class="center-text text-block">
+<div class="center-text text-block repo-list">
   <h2>Current</h2>
   <p> My main projects right now are SongTub, a soon to be music licensing platform, making games with friends, and whatever
     is on my github:</p>
@@ -6,7 +6,7 @@
 <div class="repo-list" *ngFor="let repo of repos;">
   <md-card>
     <md-card-header>
-      <md-card-title>{{ repo.name }}</md-card-title>
+      <md-card-title><a href="{{ repo.html_url }}">{{ repo.name }}</a></md-card-title>
       <md-card-subtitle>{{ repo.language }}</md-card-subtitle>
     </md-card-header>
     <md-card-content>
