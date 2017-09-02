@@ -1,5 +1,12 @@
 <div class="center-text text-block">
-<p>
-  blog works!
-</p>
+  <button md-button [mdMenuTriggerFor]="menu">Posts</button>
+  <md-menu #menu="mdMenu">
+    <button md-menu-item>Post 1</button>
+    <button md-menu-item>Post 2</button>
+  </md-menu>
+</div>
+<div>
+  <div *ngFor="let post of posts;">
+    <h4>{{ post.title }}</h4>
+  </div>
 </div>
