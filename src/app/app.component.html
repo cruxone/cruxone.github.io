@@ -1,7 +1,7 @@
 <div class="roboto">
   <div class="App-header">
     <br />
-      <h1 class="center-text">Hey, I'm Crux.</h1>
+      <h2 class="center-text spacer">Hey, I'm Crux.</h2>
         <img class="Img-size center-block img-responsive img-circle" 
         src="../../assets/img/cf_cropped.png" 
         mdTooltip="Click my face to hide it!" 
@@ -12,23 +12,23 @@
       class="center-text" 
       (click)="showHide = !showHide"
       mdTooltip="Click to bring my face back!">Bring me back!</h4>
-      <h1 class="center-text">I like to program and I work in "devops".</h1>
+      <h2 class="center-text spacer">I like to program and I work in "devops".</h2>
       <div class="center-block center-text">
-        <button md-raised-button color="primary" [routerLink]="['/Home']">Home</button>
-        <button md-raised-button color="primary" [routerLink]="['/Blog']">Blog</button>   
-        <button md-raised-button color="primary" [routerLink]="['/Projects']">Projects</button>        
+        <button type="button" class="btn btn-dark" [routerLink]="['/Home']">Home</button>
+        <button type="button" class="btn btn-dark" [routerLink]="['/Blog']">Blog</button>
+        <button type="button" class="btn btn-dark" [routerLink]="['/Projects']">Projects</button>
       </div>
       <br />
       <div class="center-block center-text">
-        <a  href="https://www.linkedin.com/in/chris-freeland/"><button md-mini-fab color="primary"><i class="fa fa-linkedin"></i></button></a>
-        <a href="https://github.com/cruxone"><button md-mini-fab color="primary"><i class="fa fa-github"></i></button></a>
+        <a href="https://github.com/cruxone"><button type="button" class="btn btn-dark"><i class="fa fa-linkedin"></i></button></a>
+        <a  href="https://www.linkedin.com/in/chris-freeland/"><button type="button" class="btn btn-dark"><i class="fa fa-github"></i></button></a>
       </div>
   </div>
   <br />
 <router-outlet></router-outlet>
-<h1 class="center-text">¯\_(ツ)_/¯</h1> 
+<h3 class="center-text">¯\_(ツ)_/¯</h3> 
 <footer>
-  <h4 class="center-text"><i class="fa fa-envelope"></i> chris@crux.cool</h4>
   <br />
+  <h5 class="center-text"><i class="fa fa-envelope"></i> chris@crux.cool</h5>
 </footer>
 </div>
