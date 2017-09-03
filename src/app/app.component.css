@@ -1,6 +1,7 @@
-.Img-size {
-  height: 15%;
-  width: 15%;
+.img-size {
+  height: 40%;
+  width: 40%;
+  max-width: 175px;
 }
 .center-block {
     display: block;

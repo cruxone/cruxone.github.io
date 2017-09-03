@@ -13,14 +13,13 @@
 .center-text {
   text-align: center;
 }
-.bgimg {
-  background: #67B26F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(left, #4ca2cd, #67B26F);
-  background: -moz-linear-gradient(left, #4ca2cd, #67B26F);
-  background: -o-linear-gradient(left, #4ca2cd, #67B26F);
-  background: linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .bgimg {
+background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #71B285, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #71B285, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: white; 
-}
+}  
 .text-block {
   margin-left: 15%;
   margin-right: 15%;
