@@ -2,16 +2,16 @@
   <div class="App-header">
     <br />
       <h2 class="center-text spacer">Hey, I'm Crux.</h2>
-        <img class="Img-size center-block img-responsive img-circle" 
+        <img class="img-size center-block img-fluid img-circle" 
         src="../../assets/img/cf_cropped.png" 
         mdTooltip="Click my face to hide it!" 
         mdTooltipPosition="left"
         (click)="showHide = !showHide"
         *ngIf="!showHide">
-      <h4 *ngIf="showHide" 
+      <h6 *ngIf="showHide" 
       class="center-text" 
       (click)="showHide = !showHide"
-      mdTooltip="Click to bring my face back!">Bring me back!</h4>
+      mdTooltip="Click to bring my face back!">Bring me back!</h6>
       <h2 class="center-text spacer">I like to program and I work in "devops".</h2>
       <div class="center-block center-text">
         <button type="button" class="btn btn-dark" [routerLink]="['/Home']">Home</button>
