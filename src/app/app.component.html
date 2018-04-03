@@ -12,11 +12,17 @@
       class="center-text" 
       (click)="showHide = !showHide"
       mdTooltip="Click to bring my face back!">Bring me back!</h6>
-      <h2 class="center-text spacer">I like to program and I work in "devops"</h2>
-      <div class="center-block center-text">
+      <!-- <h2 class="center-text spacer">I like to program and I work in "devops"</h2> -->
+      <!-- <div class="center-block center-text">
         <button type="button" class="btn btn-dark" [routerLink]="['/Home']">Home</button>
-        <button type="button" class="btn btn-dark" [routerLink]="['/Blog']">Blog</button>
         <button type="button" class="btn btn-dark" [routerLink]="['/Projects']">Projects</button>
+      </div> -->
+      <div class="center-block col-md-4">
+        <br />
+        <h4>About</h4>
+        <p>I'm a guy typing in the Pacific Northwest. Playing Dungeons and Dragons till midnight then programming till work starts.</p>
+
+        <p>I've been a huge fan of Angular so far and have used it in fun and freelance. Devopsing with node and python faithfully by my side admist a bastion of AWS Infrastructure. </p>
       </div>
       <br />
       <div class="center-block center-text">
@@ -28,7 +34,5 @@
 <router-outlet></router-outlet>
 <h3 class="center-text">¯\_(ツ)_/¯</h3> 
 <footer>
-  <br />
-  <h5 class="center-text"><i class="fa fa-envelope"></i> chris@crux.cool</h5>
 </footer>
 </div>
