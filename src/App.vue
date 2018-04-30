@@ -58,9 +58,10 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: white; /*#2c3e50;*/
-    margin-top: 60px;
+    margin-top: 50px;
     text-align: left;
-    margin-left: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
   #work {
     margin-top: 5%;

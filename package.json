@@ -1,11 +1,12 @@
 {
-  "name": "freeland-dot-me",
+  "name": "cruxone.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "pub": "npm run build && rm -rf docs; cp -r dist docs && sed -i -e 's/src=\\//src=/g' docs/index.html ; sed -i -e 's/href=\\//href=/g' docs/index.html;cp CNAME docs/CNAME"
   },
   "dependencies": {
     "vue": "^2.5.16"
