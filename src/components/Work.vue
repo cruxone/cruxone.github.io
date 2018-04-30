@@ -13,27 +13,9 @@
 
 <script>
 export default {
-  // data () {
-  //   return { 
-  //     images: [
-  //       {
-  //         src: require('../assets/songtub.jpg')
-  //       },
-  //       {
-  //         src: require('../assets/nglrmls.jpg')
-  //       }
-  //     ]
-  //   }
-  // }
 };
 </script>
 <style scoped>
-/* .port-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} */
 a {
   text-decoration: none;
   color: white;

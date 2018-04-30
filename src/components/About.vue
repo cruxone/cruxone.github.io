@@ -1,5 +1,6 @@
 <template>
   <div class="pads">
+    <h3>About</h3>
     <p>I love systems and programming.
     <br>It is amazing and thought provoking.
     <br>
@@ -18,6 +19,5 @@ export default {
 </script>
 <style scoped>
 .pads {
-  margin-top:5%;
 }
 </style>
