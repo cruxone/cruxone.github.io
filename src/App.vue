@@ -60,7 +60,7 @@ export default {
     color: white; /*#2c3e50;*/
     margin-top: 60px;
     text-align: left;
-    margin-left: 12%;
+    margin-left: 8%;
   }
   #work {
     margin-top: 5%;
