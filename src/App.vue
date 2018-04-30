@@ -1,12 +1,11 @@
 <template>
-  <div id="app">
+  <div id="app" class="al">
     <!-- <img src="./assets/logo.png"> -->
     <Header tag="Hello, I'm Chris" />
     <About />
-    <Social />
-
     <Work />
-    <Footer id="footer" email="chris@freeland.me" tag="Zug Zug"/>
+    <Social />
+    <Footer id="footer" email="chris@freeland.me"/>
   </div>
 </template>
 
@@ -36,6 +35,8 @@ export default {
   text-align: center;
   color: white; /*#2c3e50;*/
   margin-top: 60px;
+  text-align: left;
+  margin-left: 25%;
 }
 .page {
 background: #134E5E;  /* fallback for old browsers */
@@ -44,11 +45,9 @@ background: linear-gradient(to right, #71B285, #134E5E); /* W3C, IE 10+/ Edge, F
 
   color: white; 
 } 
-#footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
+
+a {
+  text-decoration: none;
+  color: white;
 }
 </style>
