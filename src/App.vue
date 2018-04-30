@@ -1,21 +1,25 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
-    <About tag="Hey, I'm Chris."/>
-    <Work />
+    <Header tag="Hello, I'm Chris" />
+    <About />
     <Social />
+
+    <Work />
     <Footer id="footer" email="chris@freeland.me" tag="Zug Zug"/>
   </div>
 </template>
 
 <script>
 import About from './components/About.vue'
+import Header from './components/Header.vue'
 import Work from './components/Work.vue'
 import Social from './components/Social.vue'
 import Footer from './components/Footer.vue'
 export default {
   name: 'app',
   components: {
+    Header,
     About,
     Work,
     Social,

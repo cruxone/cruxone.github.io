@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h3>Some of my work</h3>
+        <h3>Frontend Work</h3>
+  
+        <ul>
+        </ul>
     </div>
 </template>
 

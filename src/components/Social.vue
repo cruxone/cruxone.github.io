@@ -1,10 +1,8 @@
 <template>
     <div id="soc">
-        <ul>
             <a href="https://www.linkedin.com/in/chris-freeland/" class="icons"><i class="fab fa-linkedin-in fa-lg"></i></a>
             <a href="https://github.com/cruxone" class="icons"><i class="fab fa-github-alt fa-lg"></i></a>
             <a href="https://medium.com/@chris_49442" class="icons"><i class="fab fa-medium-m fa-lg"></i></a>
-        </ul>
     </div>
 </template>
 
