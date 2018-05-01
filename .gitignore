@@ -7,6 +7,7 @@
 
 # dependencies
 /node_modules
+/app/node_modules
 
 ./editorconfig
 # IDEs and editors

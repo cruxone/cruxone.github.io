@@ -36,7 +36,7 @@ export default {
   color: white; /*#2c3e50;*/
   margin-top: 60px;
   text-align: left;
-  margin-left: 25%;
+  margin-left: 33%;
 }
 
 #about {
@@ -51,7 +51,7 @@ export default {
 #footer {
   margin-top: 2%;
 }
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   #app {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
