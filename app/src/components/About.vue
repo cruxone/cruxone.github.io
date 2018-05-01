@@ -2,7 +2,7 @@
   <div class="pads">
     <h3>About</h3>
     <p>I love systems and programming.
-    <br>It is amazing and thought provoking.
+    <br>They are amazing and thought provoking.
     <br>
     <br>Currently I work as a DevOps Engineer, and Python is my swiss army knife.
     <br>By night / weekend, I freelance and work on side projects. 
